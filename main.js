@@ -2,8 +2,12 @@ let firstTeamScore = 0
 let secondTeamScore = 0
 
 
-teams["team 1", "team 2"]
+const teams = {
+    team1: 0,
+    team2: 0
+}
 
+// TODO use bracket notation to access a property in an object
 
 function scoreUp(team){
     
